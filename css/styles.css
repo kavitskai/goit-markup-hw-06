@@ -401,6 +401,15 @@ textarea {
   padding-bottom: 60px;
   background: #2f303a;
 }
+.footer-contacts {
+  width: 231px;
+}
+.footer .container {
+  display: flex;
+  justify-self: start;
+  align-items: baseline;
+}
+
 .logo-white {
   color: var(--reserve-text-color);
 }
@@ -419,15 +428,13 @@ textarea {
 .main-contacts-link.map {
   color: var(--reserve-text-color);
 }
-.footer .container {
-  display: flex;
-  align-items: baseline;
-}
+
 /* =====Футер соцсети======= */
 .footer-social {
   margin-left: 70px;
 }
 .join {
+  display: inline-block;
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
