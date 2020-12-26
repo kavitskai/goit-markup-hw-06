@@ -480,6 +480,8 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  padding: 10px 0;
   margin-left: 12px;
   min-width: 200px;
   min-height: 50px;
